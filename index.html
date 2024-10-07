@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Typing Master</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Master</h1>
+        <div class="options">
+            <label>
+                <input type="radio" name="wordCount" value="10" checked> Small (10 words)
+            </label>
+            <label>
+                <input type="radio" name="wordCount" value="20"> Long (20 words)
+            </label>
+            <label>
+                <input type="radio" name="wordCount" value="30"> Very Long (30 words)
+            </label>
+        </div>
+        <button id="startBtn">Start Test</button>
+        <button id="resetBtn">Reset Test</button>
+        
+        <div id="text-container" class="text-container" tabindex="0"></div>
+        
+        <div id="result" class="result"></div>
+
+        <div class="instructions">
+            <h2>Instructions:</h2>
+            <ul>
+                <li>Press the spacebar after typing each word.</li>
+                <li>After finishing the test, click the Reset button to start over.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
