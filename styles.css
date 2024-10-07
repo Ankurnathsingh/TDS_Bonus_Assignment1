@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, dodgerblue, white);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #E0FFFF; /* Light Cyan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 2px solid black;
+}
+
+h1 {
+    color: black; /* Change to black for better contrast against light background */
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.text-container {
+    background-color: #E0FFFF; /* Light Cyan */
+    color: black; /* Change text color to black for better contrast */
+    font-size: 2em;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.result {
+    font-size: 1.5em;
+    color: black; /* Change to black for better contrast */
+    margin: 20px 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.instructions {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.instructions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instructions li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.instructions li:before {
+    content: "•";
+    color: blue;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.highlight {
+    background-color: gold;
+    font-weight: bold;
+}
